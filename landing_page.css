@@ -1,0 +1,64 @@
+#container-fluid{
+
+     font-size: medium;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+
+}
+.navbar-default {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+    border: none;
+    margin-bottom: 0;
+  }
+  .navbar-brand, .navbar-nav li a {
+    line-height: 28px;
+  }
+  .navbar-default .navbar-brand  {
+    color: #5C5C5C;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .navbar-default .navbar-nav li a {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+
+#contact {
+    background-color: lightgoldenrodyellow;
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+  #contact .col-md-8 {
+    margin-bottom: 32px;
+  }
+  #contact .form-control {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  #contact .form-control:focus {
+    border-color: #f9f9f9;
+  }
+  #contact input {
+    height: 48px;
+  }
+  #contact input[type="submit"] {
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    height: 50px;
+  }
+  #contact input[type="submit"]:hover {
+    background:navy;
+    color: #fff;
+  }
+  
